@@ -1,0 +1,5 @@
+# Streamlit 1.48.0 introduced the width parameter used by st.button.
+streamlit>=1.48.0
+
+# Provides the OpenAI-compatible client used to call the DeepSeek API.
+openai>=1.0.0

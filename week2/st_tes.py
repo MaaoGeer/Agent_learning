@@ -40,7 +40,7 @@ name = st.text_input('Please input your name:')
 st.write(f"Your name is {name}")
 
 password = st.text_input('Please input your password:',type='password')
-st.write(f"Your password is {password}")
+
 
 # 单选按钮
 gender = st.radio("Please select your gender",['male','female','unknown'])

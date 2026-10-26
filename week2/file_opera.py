@@ -15,5 +15,5 @@ finally:    # finally使得文件可以一定关闭
 
 # 推荐方式
 with open('E:\\Agent_learning\\week2\\test1.txt','r',encoding='utf-8') as f:
-    f1.write('cont_list[2]\n')
-    f1.write('cont_list[3]\n')
+    f.write('cont_list[2]\n')
+    f.write('cont_list[3]\n')

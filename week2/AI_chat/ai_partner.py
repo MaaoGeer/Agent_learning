@@ -33,6 +33,8 @@ def new_session():
 # 加载所有会话信息
 def load_session():
      sess_list = []
+     if not os.path.exists("./sessions"):
+         os.mkdir("./sessions")
      file_list = os.listdir(f"./sessions")
      for file in file_list:
          if file.endswith(".json"):
